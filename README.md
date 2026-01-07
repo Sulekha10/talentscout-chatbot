@@ -28,26 +28,33 @@ To automate the initial screening process by replacing static forms with an inte
 Follow these steps to set up and run the project on your system:
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/Sulekha10/talentscout-chatbot.git
+
 cd talentscout-chatbot
 
 2️⃣ Create a Virtual Environment (Optional but Recommended)
+
 python -m venv venv
+
 source venv/bin/activate       # For Linux/Mac
+
 venv\Scripts\activate          # For Windows
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+
+    pip install -r requirements.txt
 
 4️⃣ Set Up API Key (Groq)
 
-Create a .env file in the project root:
+   Create a .env file in the project root:
 
 GROQ_API_KEY=your_api_key_here
 
 Or set it as an environment variable in your system.
 
 5️⃣ Run the Application
+
    streamlit run app.py
 
 The application will open in your browser.
@@ -91,13 +98,13 @@ The application will open in your browser.
 . Internship coordinators
 
 ## 🛠 Technical Details
+
 ## 📚 Libraries & Tools Used
-Component	                Technology
-Frontend/UI	                Streamlit
-LLM API	                   Groq API
-Environment Management	    python-dotenv
-Backend Logic	             Python
-Validation	                Custom Regex (email & phone)
+
+    Streamlit
+    Groq API
+    Python
+    Custom Regex (email & phone)
 
 ## 🧠 Model Details
 
@@ -118,10 +125,6 @@ The model dynamically adapts the questions based on:
 . AI/ML tools
 
 ## 🏗 Architecture Design
-
-User → Streamlit UI → Python Logic → LLM (Groq API)
-                              ↓
-                     Question Generation
 
 Flow:
 
@@ -244,6 +247,8 @@ The application can be deployed using Streamlit Cloud:
 ## 👩‍💻 Author
 
 Sulekha Patel
+
 B.Tech CSE (AI & ML) | Aspiring AI/ML Engineer & Full Stack Developer
+
 LinkedIn: https://linkedin.com/in/sulekhapatel/
 
