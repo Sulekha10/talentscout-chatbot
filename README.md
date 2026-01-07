@@ -29,17 +29,17 @@ Follow these steps to set up and run the project on your system:
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/Sulekha10/talentscout-chatbot.git
+    git clone https://github.com/Sulekha10/talentscout-chatbot.git
 
-cd talentscout-chatbot
+    cd talentscout-chatbot
 
 2️⃣ Create a Virtual Environment (Optional but Recommended)
 
-python -m venv venv
+    python -m venv venv
 
-source venv/bin/activate       # For Linux/Mac
+    source venv/bin/activate       # For Linux/Mac
 
-venv\Scripts\activate          # For Windows
+    venv\Scripts\activate          # For Windows
 
 3️⃣ Install Dependencies
 
@@ -55,7 +55,7 @@ Or set it as an environment variable in your system.
 
 5️⃣ Run the Application
 
-   streamlit run app.py
+    streamlit run app.py
 
 The application will open in your browser.
 
