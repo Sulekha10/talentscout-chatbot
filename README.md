@@ -49,7 +49,7 @@ Follow these steps to set up and run the project on your system:
 
    Create a .env file in the project root:
 
-GROQ_API_KEY=your_api_key_here
+    GROQ_API_KEY=your_api_key_here
 
 Or set it as an environment variable in your system.
 
@@ -126,6 +126,10 @@ The model dynamically adapts the questions based on:
 
 ## 🏗 Architecture Design
 
+    User → Streamlit UI → Python Logic → LLM (Groq API)
+                              ↓
+                       Question Generation
+                       
 Flow:
 
 1.User enters details via chat interface.
