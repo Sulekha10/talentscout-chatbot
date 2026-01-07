@@ -28,7 +28,7 @@ To automate the initial screening process by replacing static forms with an inte
 Follow these steps to set up and run the project on your system:
 
 1️⃣ Clone the Repository
-git clone https://github.com/YOUR_USERNAME/talentscout-chatbot.git
+git clone https://github.com/Sulekha10/talentscout-chatbot.git
 cd talentscout-chatbot
 
 2️⃣ Create a Virtual Environment (Optional but Recommended)
